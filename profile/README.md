@@ -30,32 +30,13 @@ So: **one balance, multiple strategies, multiple chains, no custody.**
 
 ---
 
-## Repository structure
-
-This repository is a **monorepo** for the Aqua0 protocol and products:
-
-| Package                                 | Description                                                                                         |
-| --------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **[`contracts/`](../contracts/)**       | Solidity smart contracts: LP Smart Accounts (ERC-4337), Aqua adapter, Rebalancer. Foundry.          |
-| **[`backend/`](../backend/)**           | API, indexer (Ponder), and rebalancing services. NestJS/Hono, Supabase, LayerZero.                  |
-| **[`web-app/`](../web-app/)**           | Main app for LPs and traders: strategies, positions, cross-chain swaps. Next.js, wagmi, RainbowKit. |
-| **[`landing-page/`](../landing-page/)** | Marketing site, waitlist, blog. Next.js, Supabase.                                                  |
-| **[`docs/`](../docs/)**                 | Official documentation site (Fumadocs). Product, developers, security, company.                     |
-
-Each package has its own **README** and setup instructions.
-
----
-
 ## Getting started
 
 - **New to Aqua0?**  
   → [Product overview](https://docs.aqua0.xyz/docs/product/overview) · [How it works](https://docs.aqua0.xyz/docs/product/how-it-works) · [Landing page](https://aqua0.xyz) (when deployed)
 
 - **Integrating (quotes, swaps, status)?**  
-  → [Developer quickstart](https://docs.aqua0.xyz/docs/developers/quickstart) · [Integration guide](https://docs.aqua0.xyz/docs/developers/integration) · [Backend API](../backend/README.md)
-
-- **Contributing (contracts, backend, frontend)?**  
-  → See **`AGENTS.md`** and **`CLAUDE.md`** in each package (`contracts/`, `backend/`, `web-app/`, `landing-page/`, `docs/`) for architecture and workflows.
+  → [Developer quickstart](https://docs.aqua0.xyz/docs/developers/quickstart) · [Integration guide](https://docs.aqua0.xyz/docs/developers/integration)
 
 - **Security & trust**  
   → [Non-custodial design](https://docs.aqua0.xyz/docs/security/non-custodial) · [Risks & disclosures](https://docs.aqua0.xyz/docs/security/risks)
@@ -68,7 +49,6 @@ Each package has its own **README** and setup instructions.
 | ----------------------- | -------------------------------------------------------------------- |
 | **Docs site**           | [docs.aqua0.xyz](https://docs.aqua0.xyz)                             |
 | **LLM-friendly export** | [docs.aqua0.xyz/llms-full.txt](https://docs.aqua0.xyz/llms-full.txt) |
-| **Product PRD**         | [`docs/Aqua0_PRD.md`](../docs/Aqua0_PRD.md)                          |
 
 Sections: **Product** (overview, how it works, economics, roadmap) · **Developers** (quickstart, integration, status & errors) · **Security** (non-custodial, risks, audits) · **Company** (mission, traction, team).
 
@@ -92,4 +72,4 @@ Sections: **Product** (overview, how it works, economics, roadmap) · **Develope
 
 ## License
 
-See the LICENSE file in each package. Smart contracts and protocol code are intended for audit and public use under the terms specified there.
+Smart contracts and protocol code are intended for audit and public use under the terms specified in our documentation and releases.
