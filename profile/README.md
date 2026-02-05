@@ -33,7 +33,7 @@ So: **one balance, multiple strategies, multiple chains, no custody.**
 ## Getting started
 
 - **New to Aqua0?**  
-  → [Product overview](https://docs.aqua0.xyz/docs/product/overview) · [How it works](https://docs.aqua0.xyz/docs/product/how-it-works) · [Landing page](https://aqua0.xyz) (when deployed)
+  → [Product overview](https://docs.aqua0.xyz/docs/product/overview) · [How it works](https://docs.aqua0.xyz/docs/product/how-it-works) · [Landing page](https://aqua0.xyz)
 
 - **Integrating (quotes, swaps, status)?**  
   → [Developer quickstart](https://docs.aqua0.xyz/docs/developers/quickstart) · [Integration guide](https://docs.aqua0.xyz/docs/developers/integration)
