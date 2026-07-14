@@ -26,7 +26,7 @@ Aqua0 brings execution to liquidity instead of moving liquidity into custodial p
   as one shared pool, so a single deposit can back liquidity across many venues and chains at the
   same time.
 - **Cross-chain.** Liquidity serves demand wherever it happens. Positions and settlement are
-  coordinated across chains over Across as the primary bridge.
+  coordinated across chains.
 - **Intent-based.** Traders declare intents, and LPs choose which strategies to back, from
   concentrated and stable curves to custom strategies written as Uniswap V4 hooks.
 
@@ -87,14 +87,6 @@ private and deposit-capped as it opens, and a testnet is available to try today.
 - **Yudhishthra Sugumaran.** CTO. Ex-Nethermind and Etherscan.
 
 ---
-
-## Tech at a glance
-
-- **Contracts:** Solidity, Foundry, Uniswap V4 hooks, 1inch Aqua, ERC-4337 account abstraction,
-  ERC-7540 async redeem, Across for cross-chain settlement.
-- **Backend:** TypeScript, Bun, Ponder (indexer), Postgres, Redis.
-- **Frontend:** Next.js, TypeScript, Tailwind, wagmi.
-- **Docs:** Next.js, Fumadocs, MDX.
 
 ## Community
 
